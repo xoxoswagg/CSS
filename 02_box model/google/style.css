@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+.page-wrapper {
+    text-align: center;
+    margin-top: 200px;
+}
+.page-wrapper img{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.page-wrapper input{
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.button-wrapper button{
+    cursor: pointer;
+    padding: 20px;   
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin: 0 5px;
+    width: 0 auto;
+    background-color: rgb(222, 219, 225);
+}
+.page-wrapper ::placeholder{
+    text-align: center;
+}
+.button-wrapper:hover{
+    border-color: aqua;
+}
