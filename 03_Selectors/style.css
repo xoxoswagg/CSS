@@ -1,0 +1,103 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* p {
+color: aqua;
+} */
+
+div .jackie {
+    color: blue;
+}
+
+div #welcome {
+    color: blueviolet;
+}
+[target] {
+    color: green;
+}
+
+[href="https://open.spotify.com/track/3gnWw0LToxswxfC6Eb8GBp?si=617d8ee18cf545c7"] {
+    color: black;
+}
+div p {
+    background-color: gray;
+}
+.psuedo p {
+    background-color: blueviolet;
+}
+ol li {
+    border: 12px;
+    background-color: crimson;
+    color: black;
+}
+ul li {
+    border: 12px;
+    background-color: gold;
+    color: black;
+}
+
+button::after{
+    color: grey;
+}
+button{
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 23px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+        }
+ 
+input:disabled {
+    background-color: blueviolet;
+}
+
+/* p::before {
+    content: "start:";
+    color: brown;
+}
+p::after {
+    content: " finished.";
+    color: aqua;
+} */
+
+.para1::first-line{
+    color: grey;
+    font-weight: bold;
+}
+.para1::first-letter {
+    font-size: 2em;
+}
+
+::selection {
+    color: black;
+    background-color: yellow;
+}
+
+#name p {
+color: blueviolet;
+}
+h1 +div{
+    margin-top: 100px;
+}
+h1,div{
+    font-style: italic;
+}
+
+
+:root {
+    --main-background-color:blue;
+}
+
+#main-div {
+    background-color: var(--main-background-color);
+}
+
+
+.color-red {
+    color: darkred;
+}
