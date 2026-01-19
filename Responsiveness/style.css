@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Space {
+    width: 100%;
+    padding: 15px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .Space{
+        width: 49%;
+        float: left;
+        border: 1px solid;
+        margin-left: 5px;
+    }
+}
